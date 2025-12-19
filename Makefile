@@ -1,7 +1,7 @@
 # Zip Naming
-NAME ?= AtomX
-CODENAME ?= lisa
-VERSION ?= v1.0
+NAME ?= Salsa
+CODENAME ?= redwood
+VERSION ?= v2.0
 CUSTOM ?= $(shell date "+%H%M")
 
 ZIP := $(NAME)-$(CODENAME)$(VERSION)-$(CUSTOM)
